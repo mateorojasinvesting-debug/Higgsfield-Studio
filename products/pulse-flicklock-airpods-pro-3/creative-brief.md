@@ -1,16 +1,16 @@
 # Creative Brief — Pulse FlickLock™ for AirPods Pro 3
 
-**Status:** Draft v1 — awaiting hero shots + Accessify logo + MeLi URL/price
+**Status:** Draft v1 — awaiting hero shots + Accesify logo + MeLi URL/price
 
 ## Goal of this first production run
 
-Validate the Accessify creative pipeline end-to-end with one product, before scaling to the rest of the catalog. Output: 3 premium creatives (1 static hero, 2 hypermotion videos) across 3 platforms (MeLi listing, IG feed, TikTok Ads).
+Validate the Accesify creative pipeline end-to-end with one product, before scaling to the rest of the catalog. Output: 3 premium creatives (1 static hero, 2 hypermotion videos) across 3 platforms (MeLi listing, IG feed, TikTok Ads).
 
 Success criteria:
 - ✅ Visual quality at Apple/Dyson level (subjective: founder approves on first or second iteration)
 - ✅ Virality Predictor score ≥ 60/100 on the video concepts
 - ✅ Product fidelity 100% (no altered features or branding)
-- ✅ Accessify outro stamp present on all videos
+- ✅ Accesify outro stamp present on all videos
 - ✅ Full creative + prompt + score + job ID committed to repo
 
 ## Concept 1 — "Engineered for Pro 3" (Premium static hero)
@@ -34,7 +34,7 @@ Success criteria:
 **Copy overlay (added in post or via prompt):**
 - Title (top-left, weight 200, white): *"Diseñado solo para AirPods Pro 3."*
 - Subtitle (bottom, weight 300, white 60% opacity): *"FlickLock™ · 20.000 aperturas · doble defensa"*
-- Accessify watermark, bottom-right corner, 8% opacity white
+- Accesify watermark, bottom-right corner, 8% opacity white
 
 ---
 
@@ -48,7 +48,7 @@ Success criteria:
 
 **Prompt:**
 
-> Macro cinematic product film, Dyson-quality. Open on extreme close-up of the FlickLock slider mechanism, mint-green button centered. Slow finger enters from frame right and pushes the slider laterally. The green status LED beside it ignites with a soft halo bloom. Camera dollies in 15% as the lid begins to rise — magnetic auto-open, lid floats upward separating from the body in slow motion (60% speed). Camera pulls back smoothly to reveal the full case, now open, with AirPods Pro 3 inside softly catching light. Camera continues into a final 180° orbit revealing the case profile against pitch-black background. Final 1.5 seconds: fade to black, Accessify wordmark appears in white center, holds, fades out. No music yet (added in post). Color grade: warm-cool contrast, deep blacks, mint green accent preserved.
+> Macro cinematic product film, Dyson-quality. Open on extreme close-up of the FlickLock slider mechanism, mint-green button centered. Slow finger enters from frame right and pushes the slider laterally. The green status LED beside it ignites with a soft halo bloom. Camera dollies in 15% as the lid begins to rise — magnetic auto-open, lid floats upward separating from the body in slow motion (60% speed). Camera pulls back smoothly to reveal the full case, now open, with AirPods Pro 3 inside softly catching light. Camera continues into a final 180° orbit revealing the case profile against pitch-black background. Final 1.5 seconds: fade to black, Accesify wordmark appears in white center, holds, fades out. No music yet (added in post). Color grade: warm-cool contrast, deep blacks, mint green accent preserved.
 
 **Critical instructions for the model:**
 - The product in `--start-image` MUST remain dimensionally and visually identical — only camera, light, and the slider/lid motion are animated
@@ -68,34 +68,47 @@ Success criteria:
 
 ---
 
-## Concept 3 — "Carry it like a charm" (Lifestyle hypermotion 9:16)
+## Concept 3 — "The complete kit" (Studio trio reveal 9:16) — ADAPTED
 
-**Use:** IG Reels organic + Reels Ads, TikTok organic + Ads
+> **Adaptation note:** Original Concept 3 was a lifestyle wrist shot, but no lifestyle hero photo is available. Reframed as a premium **studio trio reveal** that uses the available image-5 (3-piece composition: open case + closed case + lanyard) as `--start-image`. Stays true to Apple-style product showcase aesthetic.
+
+**Use:** IG Reels organic + Reels Ads, TikTok organic + Ads, MeLi listing secondary image
 
 **Format:** 9:16 vertical, 7 seconds
 
-**Higgsfield model:** `seedance_2_0` with `--start-image <hero-with-lanyard-lifestyle.jpg>` and `--duration 7` and `--aspect_ratio 9:16`
+**Higgsfield model:** `seedance_2_0` with `--start-image <image-5-trio.jpg>` (the 3-piece studio composition) and `--duration 7` and `--aspect_ratio 9:16`
 
 **Prompt:**
 
-> Lifestyle product cinematography, soft natural light. Close shot of a person's wrist (no face), walking through a sunlit coffee shop or co-working space, the Pulse FlickLock case hanging from a black braided lanyard wrapped around their wrist. The case sways gently with the walking rhythm. Light bokeh in the background — warm tones, defocused MacBook, coffee cup, plants. Camera tracks alongside at wrist-height, smooth gimbal-like motion. Mid-shot, the wearer's other hand enters frame and lifts the case toward camera, lid opens magnetically revealing AirPods Pro 3 inside. Take one AirPod out. Final beat: close on the case in hand, slider with green LED visible. Cut to black, Accessify outro 1.5s. Color: warm filmic, soft falloff, real-world contrast.
+> Premium studio product reveal, Apple-style. Open on a clean white-to-soft-gray gradient background with three Pulse FlickLock pieces arranged in a row: open case (showing AirPods Pro 3 inside) on the left, closed case in the center, lanyard accessory on the right — exactly as in the start image. Hold static for 0.8 seconds. Camera begins a slow rightward dolly with subtle parallax depth — the closed case in the center grows in scale as it becomes the focus. At 2.5 seconds, the camera arrives at a hero close-up of the closed case, the mint-green slider catching a soft specular highlight, the green status LED visible. Hold for 1 second on the hero detail. Final 1.5 seconds: smooth fade to pitch black. The accesify wordmark fades in centered (lowercase, with the copper-orange terminal dot), holds for 700ms, fades out. Cinematic, deliberate pacing. Color: clean, neutral, true-to-product (preserve mint green slider exactly). No props beyond what's in the start frame.
 
-**Critical instructions:**
-- The case remains 100% accurate to `--start-image`
-- The lanyard, slider, ESR wordmark all preserved
-- Hand is real-looking (Seedance 2.0 handles hands well); avoid AI-uncanny issues
-- The setting is recognizably Colombian-friendly (modern, urban, premium-but-not-elite)
+**Critical instructions for the model:**
+- The start-image is the literal frame 0 — do not invent new objects, do not change the three product pieces
+- The closed case, open case, and lanyard must remain visually identical to the source — Seedance 2.0 should only animate camera, depth, and lighting
+- The mint-green slider color is preserved
+- ESR wordmark on the case (visible on the side) is preserved
+- The motion is camera-driven, NOT object-driven — products don't levitate or rotate; only the camera moves
+
+**Why this adaptation works:**
+- Uses the asset we actually have
+- Stays premium (Apple-style hero reveals are exactly this — locked-off studio with cinematic camera moves)
+- Showcases the "complete kit" message visually without needing a person
+- Cheaper/faster to iterate than a lifestyle shot with humans (no uncanny hand risk)
+- Reusable copy hook: *"Todo lo que necesitas. En una sola caja."*
 
 **Audio plan:**
-- Ambient room tone (Mirelo): "soft café ambience, distant chatter, espresso machine"
-- Music (Sonilo): "warm uplifting indie-electronic, slow tempo, optimistic, 7 seconds"
+- Mirelo: "soft mechanical accents — subtle slider click on the hero close-up, ambient designed silence, premium product film sound design"
+- Sonilo: "minimal cinematic synth track, 7 seconds, slow build, calm, premium tech aesthetic"
+
+**Future variant (when lifestyle shot becomes available):**
+Once founder/team captures a real lifestyle photo of the case on a wrist with MacBook/coffee context, swap back to the original wrist-shot concept. Keep this studio version as the always-on baseline.
 
 ---
 
 ## Production order
 
 1. **Hero shots arrive from user** → save to `hero-shots/` → upload to Higgsfield via `media_upload_widget` → capture upload IDs
-2. **Logo arrives** → save to `/brand/assets/accessify-logo.png` → update `/brand/visual-identity.md` with real color palette
+2. **Logo arrives** → save to `/brand/assets/accesify-logo.png` → update `/brand/visual-identity.md` with real color palette
 3. **MeLi URL or COP price** → update `specs.md` "Pricing" section + decide if positioning prompt needs adjustment
 4. **Generate Concept 1** first (cheapest, fastest, validates look) → review → iterate if needed
 5. **Generate Concept 2** (FlickLock moment) → review → score with Virality Predictor → iterate

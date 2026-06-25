@@ -1,8 +1,8 @@
-# Accessify — Brand Brief
+# Accesify — Brand Brief
 
-## What is Accessify
+## What is Accesify
 
-Accessify is a Colombian curator and reseller of premium tech accessories. We don't manufacture — we select. We import and distribute high-quality accessory lines (primarily ESR-branded iPhone/AirPods/iPad accessories) for the Colombian consumer who values design, build quality, and reliability.
+Accesify is a Colombian curator and reseller of premium tech accessories. We don't manufacture — we select. We import and distribute high-quality accessory lines (primarily ESR-branded iPhone/AirPods/iPad accessories) for the Colombian consumer who values design, build quality, and reliability.
 
 ## Positioning statement
 
@@ -32,7 +32,7 @@ We compete on **curation + experience**, not on price. The buyer isn't looking f
 - Highlight engineering, materials, fit specificity ("only for AirPods Pro 3")
 - Show product in context of premium lifestyle (MacBook, leather goods, minimalist desk)
 - Use Spanish neutro with Colombian warmth in copy
-- End every video with the Accessify outro logo stamp
+- End every video with the Accesify outro logo stamp
 - Show real product photos as the source (image-to-video), never invent the product
 
 ### DON'T

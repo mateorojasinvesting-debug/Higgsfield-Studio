@@ -1,4 +1,4 @@
-# Tone of Voice — Accessify
+# Tone of Voice — Accesify
 
 ## Spanish dialect
 

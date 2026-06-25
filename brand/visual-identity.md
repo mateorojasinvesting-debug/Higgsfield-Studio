@@ -1,16 +1,24 @@
-# Visual Identity — Accessify
-
-> ⚠️ This file will be updated once the user provides the Accessify logo + brand colors.
-> Until then, defaults below are placeholders aligned with the premium positioning.
+# Visual Identity — accesify
 
 ## Logo
 
-**File location:** `/brand/assets/accessify-logo.png` *(pending upload)*
+**Wordmark:** `accesify.` — all lowercase, ultra-bold geometric sans-serif (looks like Inter Black, Söhne Breit Kräftig, or Neue Haas Grotesk Black), with a **copper/orange square accent dot** at the end as the brand mark.
 
-Requirements:
-- PNG with transparent background
-- Minimum 2000 px on long edge
-- Both light variant (white logo) and dark variant (black logo) if available
+**File location:** uploaded to Higgsfield via `media_upload_widget` (see `/brand/assets/accesify-logo-upload-id.txt` once captured).
+
+**Composition rule:** the wordmark always reads `accesify.` with the period and the copper dot. The dot is a critical brand element — never remove it. The dot color is the only spot of warmth in an otherwise black-and-white system.
+
+**Variants needed (for future):**
+- Wordmark on transparent (have it) ✅
+- Wordmark in white on black (for dark video outros) — to generate from the black version
+- Square icon version (just the copper dot, or the "a." monogram) — for favicons, app icons
+
+**Capitalization rules:**
+- **Logo:** always lowercase `accesify.`
+- **Running text at sentence start:** Capital "Accesify" (e.g., "Accesify is a Colombian curator...")
+- **Inside sentences when stylized:** can use lowercase `accesify` as a vibe choice (like *spotify*, *figma*)
+- **In titles/headlines:** Capital "Accesify"
+- **In product copy where minimal aesthetic matters:** lowercase preferred
 
 ## Outro template (every video must end with this)
 
@@ -19,7 +27,7 @@ A 1.5-second logo stamp at the end of every generated video.
 **Prompt template for Higgsfield to generate the outro frame:**
 
 ```
-Final brand stamp. Pitch black background. Centered: "Accessify" logo
+Final brand stamp. Pitch black background. Centered: "Accesify" logo
 [white version], 18% of frame height. Below logo, in small white type,
 tagline placeholder. Subtle radial vignette. The frame holds for 1.5
 seconds, then fades to black.
@@ -28,23 +36,25 @@ seconds, then fades to black.
 For now (before logo arrives), the outro can be generated as a typographic-only frame:
 
 ```
-Final frame, 1.5s. Pitch black background. Center: "Accessify" in
+Final frame, 1.5s. Pitch black background. Center: "Accesify" in
 ultra-light geometric sans-serif (Inter Display Light or similar),
 white, 14% of frame height. 600ms fade-in. Hold for 700ms. 200ms
 fade-out to black.
 ```
 
-## Color palette (initial — to be refined with logo)
+## Color palette (final — derived from logo)
 
 | Role | Color | Use |
 |---|---|---|
-| **Primary background** | Pitch black `#000000` | Hero backgrounds, outro |
-| **Premium contrast** | Pure white `#FFFFFF` | Logo, text on dark |
-| **Accent (signal)** | Mint green `#00D4A8` | LED-style highlights, cues |
-| **Lifestyle warm** | Camel/beige `#C9A87C` | Lifestyle environments, materials |
-| **Premium dark** | Charcoal `#1A1A1A` | Studio backgrounds (warmer than pure black) |
+| **Primary text / wordmark** | Almost-black `#1A1A1A` | Logo wordmark on light backgrounds |
+| **Brand accent (THE dot)** | Copper / burnt orange `#C5602E` | The wordmark's terminal dot. Used sparingly as the single warm accent — CTAs, badge backgrounds, hover states |
+| **Primary background** | Pitch black `#000000` | Video outros, hero backgrounds, premium static shots |
+| **Premium contrast** | Pure white `#FFFFFF` | Inverted wordmark, text on dark, MeLi-style clean shots |
+| **Studio warm dark** | Deep charcoal `#1A1A1A` | Less-cold alternative to pure black for studio compositions |
+| **Lifestyle warm neutral** | Linen / camel `#D4C5A8` | Lifestyle environments (fabric, materials, soft props) |
+| **Product accent (ESR's color)** | Mint green `#00D4A8` | Only present on the actual product (slider, LED). Preserve exactly when generating; do NOT use in copy or brand chrome — that's ESR's color, not accesify's |
 
-The mint accent works particularly well because it matches the ESR Pulse FlickLock's slider color — gives brand continuity with the product photo without altering it.
+**Key insight:** The accesify palette is intentionally **monochrome + one warm dot of color** (copper). This contrasts with the cold mint of the ESR product — the two coexist visually because the product is the hero (with its mint) and the brand is the frame (with its copper). Don't mix them; let each own its role.
 
 ## Typography (when overlaying text on creatives)
 

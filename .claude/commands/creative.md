@@ -1,17 +1,17 @@
 ---
-description: Produce a premium Accessify creative for a given product and concept. Uses Higgsfield, respects brand rules, adds Accessify outro.
+description: Produce a premium Accesify creative for a given product and concept. Uses Higgsfield, respects brand rules, adds Accesify outro.
 argument-hint: <product-slug> <concept-id> [--format 1:1|9:16|16:9|4:5]
 ---
 
 # /creative
 
-Generate one Accessify-grade creative end-to-end.
+Generate one Accesify-grade creative end-to-end.
 
 ## Steps to execute
 
 1. **Read brand context**:
    - `/CLAUDE.md`
-   - `/brand/accessify.md`
+   - `/brand/accesify.md`
    - `/brand/visual-identity.md`
    - `/brand/tone-of-voice.md`
 
@@ -31,7 +31,7 @@ Generate one Accessify-grade creative end-to-end.
 
 5. **Generate** with the prompt from the creative brief. Always include `--wait`.
 
-6. **For videos**: append the Accessify outro frame.
+6. **For videos**: append the Accesify outro frame.
    - Option A (preferred): include outro in the prompt directly (final 1.5s fade-to-black + logo stamp)
    - Option B: generate outro separately, concat with ffmpeg
 
@@ -50,7 +50,7 @@ Generate one Accessify-grade creative end-to-end.
 ## Branding rules to enforce
 
 - ⛔ Never alter product features, ESR branding, slider color, LED, magnets, or AirPods Pro 3 model
-- ✅ Always end videos with Accessify outro stamp
+- ✅ Always end videos with Accesify outro stamp
 - ✅ Always use hero shot as `--start-image` for image-to-video — don't text-to-video products
 - ✅ Always preserve mint-green slider color (specific instruction in prompt if needed)
 - ✅ Tone of voice: Spanish neutro with Colombian warmth (per `tone-of-voice.md`)

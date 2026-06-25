@@ -1,5 +1,5 @@
 ---
-description: Score a finished video with Virality Predictor and interpret the result for Accessify decision-making.
+description: Score a finished video with Virality Predictor and interpret the result for Accesify decision-making.
 argument-hint: <path-to-video-or-job-id>
 ---
 
@@ -18,7 +18,7 @@ Run Virality Predictor on a finished video and decide if it's launch-ready.
 
 3. Parse the output for: Overall score, Peak hook, Sustain, Strongest region, Risk indicators, Report URL.
 
-4. Interpret against Accessify thresholds:
+4. Interpret against Accesify thresholds:
 
 | Score | Decision | Action |
 |---|---|---|

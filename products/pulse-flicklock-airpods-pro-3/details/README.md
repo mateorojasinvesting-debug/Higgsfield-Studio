@@ -41,7 +41,7 @@ For generation, we need clean hero shots (pure product, neutral background) — 
 
 ## Visual elements to preserve in generated content
 
-When generating Accessify creatives:
+When generating Accesify creatives:
 
 - ✅ Black case body with mint-green slider button accent
 - ✅ ESR wordmark on side of case (small, embossed/printed style)

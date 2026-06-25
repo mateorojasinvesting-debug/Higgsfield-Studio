@@ -1,10 +1,10 @@
-# Accessify Creative Studio
+# Accesify Creative Studio
 
 Operating instructions for every Claude session in this repo.
 
 ## What this repo is
 
-The creative production system for **Accessify**, a Colombian reseller of premium tech accessories (primarily ESR-manufactured iPhone cases, AirPods cases, screen protectors, iPad cases, keyboards, wireless chargers). This repo turns product specs + reference photos into premium ad-grade creatives (images, videos, UGC) using Higgsfield AI, ready to ship to TikTok Ads, Meta/Instagram, and Mercado Libre listings.
+The creative production system for **Accesify**, a Colombian reseller of premium tech accessories (primarily ESR-manufactured iPhone cases, AirPods cases, screen protectors, iPad cases, keyboards, wireless chargers). This repo turns product specs + reference photos into premium ad-grade creatives (images, videos, UGC) using Higgsfield AI, ready to ship to TikTok Ads, Meta/Instagram, and Mercado Libre listings.
 
 ## Who we serve
 
@@ -12,9 +12,9 @@ The creative production system for **Accessify**, a Colombian reseller of premiu
 - **Channels:** TikTok Ads Manager, Meta/Instagram Ads, Mercado Libre listings, organic IG/TikTok
 - **Goal:** maximize conversion per dollar of ad spend via data-informed, premium-positioned creatives
 
-## Brand positioning — Accessify
+## Brand positioning — Accesify
 
-Accessify is a **curator**, not a manufacturer. Positioning angle: *"Premium accessories, intelligently selected for the Colombian market."* Voice is confident, warm, and design-forward — closer to Apple/Dyson than to typical e-commerce.
+Accesify is a **curator**, not a manufacturer. Positioning angle: *"Premium accessories, intelligently selected for the Colombian market."* Voice is confident, warm, and design-forward — closer to Apple/Dyson than to typical e-commerce.
 
 - **Do** highlight engineering, materials, exclusivity, fit
 - **Do** show the product as the hero with cinematic light and motion
@@ -24,18 +24,18 @@ Accessify is a **curator**, not a manufacturer. Positioning angle: *"Premium acc
 
 ## Critical creative rule — product fidelity
 
-We are a reseller. The supplier's product (ESR, etc.) is shown **exactly as it is**, including the supplier's logo/branding. Accessify branding goes ONLY as:
-1. An **outro frame** (1-2s) at the end of every video with the Accessify logo
+We are a reseller. The supplier's product (ESR, etc.) is shown **exactly as it is**, including the supplier's logo/branding. Accesify branding goes ONLY as:
+1. An **outro frame** (1-2s) at the end of every video with the Accesify logo
 2. A **subtle watermark** on static images (corner, low-opacity)
 
-Never edit the supplier product itself. Never imply Accessify manufactured it. Use the customer's actual photos as `--start-image` for `seedance_2_0` (image-to-video) so the product stays 100% faithful — animate the camera, light, environment, not the product.
+Never edit the supplier product itself. Never imply Accesify manufactured it. Use the customer's actual photos as `--start-image` for `seedance_2_0` (image-to-video) so the product stays 100% faithful — animate the camera, light, environment, not the product.
 
 ## Folder map
 
 ```
 /CLAUDE.md                         <- this file (the constitution)
 /brand/
-  accessify.md                     <- brand positioning, voice, do/don'ts
+  accesify.md                     <- brand positioning, voice, do/don'ts
   visual-identity.md               <- palette, logo, outro template
   tone-of-voice.md                 <- Colombian Spanish guidelines
   hook-bank.md                     <- proven hooks library (grows over time)
@@ -67,7 +67,7 @@ Never edit the supplier product itself. Never imply Accessify manufactured it. U
 
 | Task | Model / tool | Why |
 |---|---|---|
-| Premium static hero photo (banner, IG feed, MeLi listing) | `marketing_studio_image` or product-photoshoot skill | Brand-safe ad image with Accessify aesthetic |
+| Premium static hero photo (banner, IG feed, MeLi listing) | `marketing_studio_image` or product-photoshoot skill | Brand-safe ad image with Accesify aesthetic |
 | Animate a product photo (hypermotion, cinematic) | `seedance_2_0` with `--start-image <hero.jpg>` | SOTA image-to-video, preserves product fidelity |
 | Full ad video with avatar/UGC presenter | `marketing_studio_video` | Has hooks/settings library + brand kit integration |
 | Logo, vector, brand mark | `recraft_v4_1` | Vector-clean output |
@@ -89,8 +89,8 @@ Default cadence: produce → score with `brain_activity` → only publish if sco
 
 ## Logos & branding
 
-- Accessify logo lives at `/brand/assets/accessify-logo.png` (transparent PNG)
-- Every generated video must end with a 1-2s outro frame showing the Accessify logo (see `/brand/visual-identity.md` for template prompt)
+- Accesify logo lives at `/brand/assets/accesify-logo.png` (transparent PNG)
+- Every generated video must end with a 1-2s outro frame showing the Accesify logo (see `/brand/visual-identity.md` for template prompt)
 - Never edit supplier branding (ESR, etc.) out of the product itself
 
 ## Tone of voice — Colombian Spanish

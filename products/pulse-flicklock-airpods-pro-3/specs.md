@@ -2,7 +2,7 @@
 
 ## Identity
 
-- **Manufacturer:** ESR (kept as-is on product; Accessify is the reseller, not rebrander)
+- **Manufacturer:** ESR (kept as-is on product; Accesify is the reseller, not rebrander)
 - **Product line:** Pulse FlickLock™
 - **Compatibility:** AirPods Pro 3 (2025) — **EXCLUSIVE FIT**. Not compatible with AirPods Pro 2, Pro 1, AirPods 4, 3, 2, or 1.
 
@@ -28,7 +28,7 @@
 ### 1. FlickLock™ slider mechanism
 - One-hand open via lateral slider
 - Rated for **20,000+ uses** (per ESR lab testing)
-- Distinctive mint-green accent on slider button (matches Accessify accent color)
+- Distinctive mint-green accent on slider button (matches Accesify accent color)
 - Tactile, audible click when engaged
 
 ### 2. Magnetic auto-open lid
@@ -58,7 +58,7 @@
 ### 7. Visual design language
 - Curved organic case body, distinct from the AirPods native case shape
 - Subtle ridged texture on the lid
-- ESR wordmark on side (kept as-is per Accessify branding rule)
+- ESR wordmark on side (kept as-is per Accesify branding rule)
 - Color: Matte black or matte white (depending on SKU)
 
 ## Reference materials in this folder
@@ -83,11 +83,11 @@
 6. ⭐⭐⭐ **360° product rotation on pedestal** — classic Apple-style reveal
 7. ⭐⭐ **Speaker cutout detail with sound wave viz** — functional explainer
 
-## Content production constraints (from Accessify brand rules)
+## Content production constraints (from Accesify brand rules)
 
 - **DO** keep the product 100% faithful — use real photos as `--start-image`
 - **DO** keep ESR branding visible (do not edit out)
-- **DO** add Accessify outro logo stamp at the end of every video
+- **DO** add Accesify outro logo stamp at the end of every video
 - **DO** show product in Apple/Dyson-grade environments
 - **DON'T** alter slider, LED color, lid mechanism, or any visible feature
 - **DON'T** stage scenarios the product can't actually do

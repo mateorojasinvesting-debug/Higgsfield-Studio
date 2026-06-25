@@ -1,6 +1,6 @@
-# Hook Bank — Accessify
+# Hook Bank — Accesify
 
-A growing library of opening hooks (first 1-3 seconds of a video, or first headline of an image) tested or proposed for Accessify creatives. Each hook is tagged by angle and the platform where it's expected to work best.
+A growing library of opening hooks (first 1-3 seconds of a video, or first headline of an image) tested or proposed for Accesify creatives. Each hook is tagged by angle and the platform where it's expected to work best.
 
 After each campaign runs, `/learn` updates this file with actual CTR/retention data, marking hooks as **proven**, **promising**, or **buried**.
 

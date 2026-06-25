@@ -1,0 +1,28 @@
+{
+  "concept_id": "concept-1",
+  "version": "v1",
+  "name": "Premium hero static — black case, Apple keynote style",
+  "format": {
+    "aspect_ratio": "1:1",
+    "resolution": "1k",
+    "quality": "low",
+    "width": 1024,
+    "height": 1024,
+    "intended_use": ["Mercado Libre listing main image", "Instagram feed post", "first quality calibration test"]
+  },
+  "higgsfield": {
+    "model": "gpt_image_2",
+    "job_id": "df87c979-d735-4883-8a79-319505f56250",
+    "reference_image_media_id": "2f31b628-29e2-4523-8eb1-f658c179f937",
+    "reference_image_filename": "1000X1000.jpg",
+    "submitted_at": "2026-06-25T18:23:17Z"
+  },
+  "prompt": "Premium Apple-keynote product photography. Hero shot of the matte black Pulse FlickLock AirPods Pro 3 case shown in the reference image. The case is centered, photographed at a low three-quarter angle, hovering 8 centimeters above a pitch-black gradient surface with a soft circular shadow beneath for dimensional grounding. Single large soft key light from the upper-right produces a clean rim light along the upper case edge and a single hot specular highlight on the mint-green FlickLock slider button. The small green status LED beside the slider is illuminated, casting a tiny ambient glow on the polycarbonate next to it. Background: pure black with subtle radial vignette toward the corners. Composition is ultra-clean — no props, no hands, no text, no overlays. Every visible product feature is preserved exactly as in the reference image: the matte black finish, the mint-green slider button, the green LED, the magnetic lid seam, the subtle ridged texture on the lid, and any visible ESR wordmark or branding on the case body. Museum-grade product photography, cinematic, deliberate, premium tech aesthetic in the style of Apple and Dyson product reveals. 4K detail, sharp focus tip to tip.",
+  "rationale": "First test pass at default quality/resolution to validate (a) the reference image is correctly mapped to the right photo, (b) the prompt produces a recognizable premium hero, (c) product fidelity is maintained. If approved, regenerate at 2k/high quality. If product is mangled or wrong reference was used, re-map media_ids before next attempt.",
+  "decision": "pending user review",
+  "iteration_notes": null,
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_182317_df87c979-d735-4883-8a79-319505f56250.png",
+  "result_thumb_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_182317_df87c979-d735-4883-8a79-319505f56250_min.webp",
+  "virality_score": "not_applicable_for_static_image",
+  "completed_at": "2026-06-25T18:23:50Z"
+}

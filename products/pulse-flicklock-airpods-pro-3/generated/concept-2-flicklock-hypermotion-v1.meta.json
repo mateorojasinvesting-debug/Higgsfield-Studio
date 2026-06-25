@@ -1,0 +1,60 @@
+{
+  "concept_id": "concept-2",
+  "version": "v1",
+  "name": "FlickLock hypermotion — TikTok/Reels 9:16 with accesify outro",
+  "format": {
+    "aspect_ratio": "9:16",
+    "duration_seconds": 10,
+    "intended_use": ["TikTok Ads", "Instagram Reels", "Instagram Stories"]
+  },
+  "higgsfield": {
+    "model": "seedance_2_0",
+    "start_image_media_id": "6bc5244e-e91a-4010-a7f9-e17b02a9ac9a",
+    "start_image_filename": "Captura de pantalla 2026-06-25 131158.png",
+    "end_image_media_id": "6e2229f7-8e59-4e08-8627-2bde1cde8679",
+    "end_image_filename": "accesify-logo_frg6tc.png",
+    "cost_credits": 45,
+    "balance_before": 2964.5,
+    "submitted_at": "2026-06-25T18:48:00Z",
+    "submission_method": "higgsfield CLI (post-MCP-approval-bug fallback)"
+  },
+  "prompt": "Premium cinematic product hypermotion. Open on the top-down macro of the matte black AirPods Pro 3 case shown in the start image, FlickLock slider mint-green button and green LED indicator visible at center. Camera slow dolly-in 5 percent over 2 seconds, locked on the slider mechanism. At second 2, a thumb enters from frame LEFT, makes contact with the mint-green slider button, and pushes it from LEFT TO RIGHT (rightward motion, matching the arrow direction on the button itself). The green LED brightens with a soft bloom as the slider reaches its rightward end position. Camera tilts up smoothly transitioning from top-down to a low three-quarter angle as the magnetic lid lifts and floats open in slow motion. Camera pulls back revealing AirPods Pro 3 inside the case with soft rim light. Slow 90 degree orbit reveals the case profile, then fades to pure black. Final frame: minimalist black background with the accesify wordmark. STRICT PRODUCT PRESERVATION: case, slider, LED, AirPods Pro 3 must remain identical to start image; same proportions, shape, orientation, mint-green slider color preserved exactly. STRICT MOTION: the slider moves LEFT TO RIGHT only, never the opposite. The lid opens upward and away from the camera. The thumb is realistic, no AI uncanny detail. Premium Dyson and Apple cinematography, warm-cool grade, deep blacks. No text overlays except the final accesify outro.",
+  "narrative_beats": {
+    "0-2s": "Hold on top-down macro, slow dolly-in 5%",
+    "2-4s": "Thumb enters LEFT, pushes slider rightward, LED brightens with bloom",
+    "4-6s": "Tilt up top-down → 3/4 angle, magnetic lid lifts and floats open slow-mo",
+    "6-8s": "Pull back, reveal AirPods Pro 3 inside, soft rim light",
+    "8-9s": "Slow 90° orbit, case profile, fade to black",
+    "9-10s": "accesify wordmark, minimalist black bg (from end-image)"
+  },
+  "fidelity_constraints": [
+    "Case proportions identical to start-image",
+    "Mint-green slider color preserved",
+    "Green LED placement unchanged",
+    "AirPods Pro 3 silhouette accurate",
+    "Slider motion strictly LEFT-TO-RIGHT (matches arrow on button)",
+    "ESR branding preserved if visible"
+  ],
+  "result_url": null,
+  "job_id": null,
+  "virality_score": null,
+  "decision": "failed_iterating",
+  "failed_attempts": [
+    {
+      "job_id": "9cdd240e-c3c2-41ed-8985-852b1db129a4",
+      "submitted_at": "2026-06-25T18:57:07Z",
+      "config": "with end_image (logo) + generate_audio default true",
+      "status": "failed",
+      "error_message_from_api": "(none returned)",
+      "hypothesis": "Transparent PNG as end_image likely incompatible with Seedance 2.0 frame interpolation"
+    },
+    {
+      "job_id": "78ec49af-d612-4bd5-acba-69c4ba3ad6dc",
+      "submitted_at": "2026-06-25T18:58:38Z",
+      "config": "without end_image, generate_audio false, full prompt + 10s",
+      "status": "failed",
+      "error_message_from_api": "(none returned)",
+      "hypothesis": "Either prompt too complex (~1500 chars) or start image dimensions issue. Testing minimal config next."
+    }
+  ]
+}

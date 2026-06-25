@@ -1,0 +1,85 @@
+{
+  "concept_id": "concept-2",
+  "version": "v3-final-cut",
+  "name": "FlickLock premium showcase — 15s with branding fix, full functionality reveal, accesify outro, premium audio",
+  "iteration_reason": "v2 successful on AirPods color fix and slider direction. User feedback: (a) extend to longer, more complete showcase including functionality (lock + protection), (b) end with accesify logo properly, (c) premium sound design, (d) CRITICAL: the model was inventing ESR branding in places where the original photo doesn't show it — must not invent any branding not already visible in start image.",
+  "format": {
+    "aspect_ratio": "9:16",
+    "duration_main_video_seconds": 15,
+    "duration_outro_seconds": 1.5,
+    "duration_total_seconds": 16.5,
+    "resolution": "720p",
+    "intended_use": ["TikTok Ads", "Instagram Reels", "Instagram Stories", "YouTube Shorts"]
+  },
+  "production_pipeline": {
+    "step_1_main_video": {
+      "tool": "higgsfield seedance_2_0",
+      "start_image_media_id": "bc645777-08fd-4b4e-928f-f2fe3772dda2",
+      "duration": 15,
+      "cost_credits": 67.5,
+      "narrative_beats": {
+        "0-2s": "Top-down macro hold + slow dolly-in on slider",
+        "2-4s": "Thumb pushes slider LEFT→RIGHT, LED ignites with bloom",
+        "4-7s": "Tilt-up arc, magnetic lid floats open, WHITE AirPods reveal",
+        "7-12s": "270° orbital pan showing construction (polycarbonate edges, TPU layer, speaker cutouts, lanyard attachment) — implies protection",
+        "12-13.5s": "Hero close-up pose, case standing, slider+LED visible",
+        "13.5-15s": "Smooth fade to pitch black"
+      }
+    },
+    "step_2_outro_frame": {
+      "tool": "higgsfield nano_banana_2 (generate_image)",
+      "input_logo_media_id": "6e2229f7-8e59-4e08-8627-2bde1cde8679",
+      "purpose": "Generate a 9:16 still frame: accesify wordmark (white, inverted from black-on-white original) centered on pitch-black background with copper-orange terminal dot preserved",
+      "estimated_cost_credits": 2
+    },
+    "step_3_outro_video": {
+      "tool": "ffmpeg",
+      "input": "step_2_outro_frame output image",
+      "output": "1.5s static video stamp (no fade in chrome, since main video already ends in black for seamless cut)",
+      "cost_credits": 0
+    },
+    "step_4_concat": {
+      "tool": "ffmpeg",
+      "operation": "concat 15s main video + 1.5s outro = 16.5s vertical 9:16",
+      "cost_credits": 0
+    },
+    "step_5_music_bed": {
+      "tool": "higgsfield sonilo_music",
+      "duration": 16.5,
+      "prompt_intent": "Cinematic minimal electronic, deep but warm, slow build, premium product film aesthetic, ends on a soft resolve aligned with the fade to black",
+      "estimated_cost_credits": "TBD"
+    },
+    "step_6_sfx": {
+      "tool": "higgsfield mirelo_text_to_audio",
+      "purpose": "Slider click (1 SFX at ~2.5s timing) + magnetic snap (1 SFX at ~4.5s timing)",
+      "estimated_cost_credits": "TBD"
+    },
+    "step_7_mix": {
+      "tool": "ffmpeg",
+      "operation": "Mix music bed (low level, -18dB) + SFX (peak level, -6dB) + video (no native audio)",
+      "cost_credits": 0
+    },
+    "step_8_score": {
+      "tool": "higgsfield brain_activity (Virality Predictor)",
+      "purpose": "Score the final mixed asset for hook strength, retention, virality potential",
+      "estimated_cost_credits": 5
+    }
+  },
+  "critical_constraints_in_prompt": [
+    "Case body matte BLACK (preserve from source)",
+    "Slider button MINT-GREEN (preserve from source)",
+    "Status LED GREEN (preserve from source)",
+    "AirPods Pro 3 inside: WHITE tips, WHITE body, SILVER stems (correct real-world colors)",
+    "Slider motion: strictly LEFT-TO-RIGHT (matches arrow direction on button)",
+    "Lid opens UPWARD with magnetic motion",
+    "**NEW IN v3**: Do NOT invent or place ESR logos/text/wordmarks in places the source image does not show them"
+  ],
+  "previous_versions": [
+    "concept-2-flicklock-hypermotion-v1.meta.json — Seedance 10s, AirPods rendered black (WRONG)",
+    "concept-2-flicklock-hypermotion-v2.meta.json — Seedance 10s, AirPods now white, ESR branding being invented (WRONG)"
+  ],
+  "result_url_main_video": null,
+  "result_url_outro_frame": null,
+  "result_url_final_mixed_master": null,
+  "decision": "in_progress"
+}

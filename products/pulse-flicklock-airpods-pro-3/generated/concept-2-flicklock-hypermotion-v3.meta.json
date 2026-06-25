@@ -78,8 +78,19 @@
     "concept-2-flicklock-hypermotion-v1.meta.json — Seedance 10s, AirPods rendered black (WRONG)",
     "concept-2-flicklock-hypermotion-v2.meta.json — Seedance 10s, AirPods now white, ESR branding being invented (WRONG)"
   ],
-  "result_url_main_video": null,
-  "result_url_outro_frame": null,
+  "result_url_main_video": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_194405_fe1c1089-c20c-46ac-a6e0-f94aab52def1.mp4",
+  "main_video_job_id": "fe1c1089-c20c-46ac-a6e0-f94aab52def1",
+  "main_video_model_actual": "marketing_studio_video",
+  "main_video_mode": "product_showcase",
+  "result_url_outro_frame": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_192429_dfdfe946-c52e-4963-b48b-8a4de992ca3a.png",
+  "outro_frame_job_id": "dfdfe946-c52e-4963-b48b-8a4de992ca3a",
   "result_url_final_mixed_master": null,
-  "decision": "in_progress"
+  "balance_after_video_and_outro": 2633,
+  "decision": "pending user review of main video before proceeding to audio + concat + scoring",
+  "iteration_journey": [
+    "v3 Seedance — had 2 LEDs (wrong), invented ESR branding",
+    "v4 marketing_studio_video default UGC mode — wrong (had person speaking)",
+    "v4b marketing_studio_video product_showcase WITH thumb — FAILED NSFW (false positive on hand+small object)",
+    "v4c marketing_studio_video product_showcase WITHOUT thumb (autonomous slider) — SUCCESS"
+  ]
 }

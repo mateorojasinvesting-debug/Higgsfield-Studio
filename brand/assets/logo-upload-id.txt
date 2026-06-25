@@ -1,0 +1,11 @@
+Higgsfield media_id for the official accesify wordmark logo (transparent PNG).
+Uploaded: 2026-06-25
+
+media_id: 6e2229f7-8e59-4e08-8627-2bde1cde8679
+original_filename: accesify-logo_frg6tc.png
+type: image (transparent PNG)
+use: outro stamps on videos, watermarks on static creatives
+
+When generating outro frames, pass this as --image to the model and instruct
+the prompt to "place the provided accesify wordmark, lowercase, with the
+copper-orange terminal dot, centered on a pitch-black background".

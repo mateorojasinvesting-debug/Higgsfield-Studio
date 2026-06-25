@@ -1,0 +1,42 @@
+{
+  "_comment": "Higgsfield media_ids for Pulse FlickLock AirPods Pro 3 hero shots. Uploaded 2026-06-25 via media_upload_widget. PROVISIONAL MAPPING — user to confirm which file is which.",
+  "uploads": [
+    {
+      "media_id": "6bc5244e-e91a-4010-a7f9-e17b02a9ac9a",
+      "filename": "Captura de pantalla 2026-06-25 131158.png",
+      "provisional_label": "image-4-slider-topdown",
+      "presumed_content": "Top-down macro shot of black case showing FlickLock slider with green LED on, light gray/wood background",
+      "intended_use": "Concept 2 (FlickLock hypermotion) start-image",
+      "confirmed_by_user": false
+    },
+    {
+      "media_id": "8118d848-436b-4f58-bd5a-24cfe1fbf0a3",
+      "filename": "Captura de pantalla 2026-06-25 131212.png",
+      "provisional_label": "image-5-trio-composition",
+      "presumed_content": "Three-piece studio composition: open case with AirPods Pro 3 + closed case + lanyard, on white background",
+      "intended_use": "Concept 3 (studio trio reveal) start-image, and Concept 1 reference for the closed case",
+      "confirmed_by_user": false
+    },
+    {
+      "media_id": "37a6ec39-3f26-4b2a-90db-11e31fb64c44",
+      "filename": "KF7.jpg",
+      "provisional_label": "unknown-extra-1",
+      "presumed_content": "Unknown — possibly an additional product photo (KF7 may be a product code or photoshoot reference)",
+      "intended_use": "TBD pending user identification",
+      "confirmed_by_user": false
+    },
+    {
+      "media_id": "2f31b628-29e2-4523-8eb1-f658c179f937",
+      "filename": "1000X1000.jpg",
+      "provisional_label": "unknown-extra-2",
+      "presumed_content": "Likely a 1000×1000 square product hero shot — could be the ideal clean hero for Concept 1 if it's a clean studio photo",
+      "intended_use": "TBD — potentially Concept 1 hero if confirmed as a clean square product shot",
+      "confirmed_by_user": false
+    }
+  ],
+  "logo_reference": {
+    "media_id": "6e2229f7-8e59-4e08-8627-2bde1cde8679",
+    "filename": "accesify-logo_frg6tc.png",
+    "stored_at": "/brand/assets/logo-upload-id.txt"
+  }
+}

@@ -35,10 +35,15 @@
     "Slider motion strictly LEFT-TO-RIGHT (matches arrow on button)",
     "ESR branding preserved if visible"
   ],
-  "result_url": null,
-  "job_id": null,
-  "virality_score": null,
-  "decision": "failed_iterating",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_190710_cb3e52ad-fe55-4f75-a32e-b5526bd1cd54.mp4",
+  "job_id": "cb3e52ad-fe55-4f75-a32e-b5526bd1cd54",
+  "successful_start_image_media_id": "bc645777-08fd-4b4e-928f-f2fe3772dda2",
+  "successful_start_image_note": "Re-processed version of original Captura 131158: upscaled 401x288 → 1080x1920, JPG (no alpha), padded with neutral background",
+  "completed_at": "2026-06-25T19:07:10Z",
+  "actual_cost_credits": 45,
+  "balance_after": 2897,
+  "virality_score": "pending — to be run after user approval",
+  "decision": "pending user review",
   "failed_attempts": [
     {
       "job_id": "9cdd240e-c3c2-41ed-8985-852b1db129a4",

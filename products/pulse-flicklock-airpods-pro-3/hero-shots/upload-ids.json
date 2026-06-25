@@ -4,10 +4,20 @@
     {
       "media_id": "6bc5244e-e91a-4010-a7f9-e17b02a9ac9a",
       "filename": "Captura de pantalla 2026-06-25 131158.png",
-      "provisional_label": "image-4-slider-topdown",
+      "provisional_label": "image-4-slider-topdown-ORIGINAL-INCOMPATIBLE",
       "presumed_content": "Top-down macro shot of black case showing FlickLock slider with green LED on, light gray/wood background",
-      "intended_use": "Concept 2 (FlickLock hypermotion) start-image",
-      "confirmed_by_user": false
+      "intended_use": "Concept 2 (FlickLock hypermotion) start-image — ORIGINAL VERSION INCOMPATIBLE with Seedance 2.0 (401x288 with alpha channel — too small + wrong format)",
+      "confirmed_by_user": true,
+      "status": "deprecated — use re-processed version below"
+    },
+    {
+      "media_id": "bc645777-08fd-4b4e-928f-f2fe3772dda2",
+      "filename": "captura-131158-vertical-1080x1920.jpg",
+      "provisional_label": "image-4-slider-topdown-VERTICAL-1080x1920",
+      "presumed_content": "Same content as 6bc5244e (top-down slider macro) but re-processed: upscaled to 1080x1920 vertical (9:16), JPG (no alpha), padded with neutral background color sampled from original",
+      "intended_use": "Concept 2 (FlickLock hypermotion) start-image — REPLACES 6bc5244e",
+      "source_pipeline": "downloaded original PNG → PIL upscale 3.67x LANCZOS → padded to 1080x1920 with #F8F8F8 (sampled bg) → JPG q95 → uploaded",
+      "confirmed_by_user": true
     },
     {
       "media_id": "8118d848-436b-4f58-bd5a-24cfe1fbf0a3",

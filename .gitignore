@@ -1,0 +1,16 @@
+# Sensitive customer/campaign data — never commit
+/data/raw/
+/data/private/
+/campaigns/*/performance/raw/
+*.env
+.env*
+*.tokens
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Local generated outputs that are too big or transient
+*.tmp
+*.swp
+node_modules/

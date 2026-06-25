@@ -1,0 +1,31 @@
+{
+  "concept_id": "concept-1",
+  "version": "v2",
+  "name": "Premium hero static — black case, strict fidelity iteration",
+  "iteration_reason": "v1 (gpt_image_2) altered the FlickLock slider position and the lighting on the slider. User feedback: 'No cambies la estructura del producto original.' Switched to a reference-driven model (nano_banana_2/pro) and rewrote prompt to lead with strict product preservation, locking the slider, LED, proportions, orientation. Only background and ambient lighting may change.",
+  "format": {
+    "aspect_ratio": "1:1",
+    "resolution": "1k",
+    "width": 1024,
+    "height": 1024,
+    "intended_use": ["Mercado Libre listing main image", "Instagram feed post", "concept validation"]
+  },
+  "higgsfield": {
+    "model_requested": "nano_banana_pro",
+    "model_resolved": "nano_banana_2",
+    "job_id": "e336d163-f9c0-4913-9e2b-67b31cba8488",
+    "reference_image_media_id": "2f31b628-29e2-4523-8eb1-f658c179f937",
+    "reference_image_filename": "1000X1000.jpg",
+    "submitted_at": "2026-06-25T18:26:47Z"
+  },
+  "prompt": "STRICT PRODUCT PRESERVATION: The product (matte black AirPods Pro 3 case) in the reference image must be reproduced EXACTLY as shown — same proportions, same shape, same orientation, same details. The FlickLock slider mechanism on the front of the case (mint-green button position, shape, and exact placement) and the small green status LED must remain IDENTICAL to the reference — do not redesign, re-position, restyle, or reinterpret the slider, LED, or any product element. Every physical detail of the product is locked.\n\nONLY change the following: replace the background and the lighting environment. Place the product against a pitch-black studio backdrop with a subtle radial vignette toward the edges. Cinematic key light from the upper-right creates a soft rim light along the case silhouette and a single specular highlight on the edge of the case. The case hovers slightly above the surface with a soft circular shadow beneath for dimensional grounding. Camera at the same low three-quarter angle as the reference.\n\nComposition: case centered. No props, no hands, no text, no overlays, no other objects. Premium Apple-keynote aesthetic. Museum-grade product photography. Output 1:1 square.",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_182647_e336d163-f9c0-4913-9e2b-67b31cba8488.jpeg",
+  "result_thumb_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_182647_e336d163-f9c0-4913-9e2b-67b31cba8488_min.webp",
+  "decision": "pending user review",
+  "completed_at": "2026-06-25T18:27:02Z",
+  "next_steps_if_still_drift": [
+    "Try nano_banana_pro explicitly (request was downgraded to v2; force Pro variant)",
+    "Try the higgsfield-product-photoshoot CLI workflow (purpose-built for brand product visuals)",
+    "Reduce prompt creativity further — describe only background, let model fully derive product from reference"
+  ]
+}

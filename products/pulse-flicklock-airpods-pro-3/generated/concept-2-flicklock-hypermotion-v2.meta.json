@@ -10,14 +10,15 @@
     "intended_use": ["TikTok Ads", "Instagram Reels", "Instagram Stories"]
   },
   "higgsfield": {
-    "model": "cinematic_studio_video_3_5",
+    "model_attempted_first": "cinematic_studio_video_3_5",
+    "model_final": "seedance_2_0",
+    "model_switch_reason": "Cinematic Studio 3.5 rejected the input image with 'IP check not finished' error twice (Higgsfield runs async IP/copyright checks more strictly on CS3.5). Fell back to Seedance 2.0 which accepts the same image (already validated in v1) — kept the WHITE AirPods fix and DOP cinematic camera language in the prompt to preserve the upgrade intent.",
     "start_image_media_id": "bc645777-08fd-4b4e-928f-f2fe3772dda2",
     "start_image_filename": "captura-131158-vertical-1080x1920.jpg",
-    "cost_credits": 50,
-    "genre": "drama",
+    "cost_credits": 45,
     "prompt_language": "en",
     "generate_audio": false,
-    "submitted_at": "2026-06-25T19:18:00Z"
+    "submitted_at": "2026-06-25T19:17:07Z"
   },
   "prompt": "Premium product film, Apple keynote and Dyson hypermotion aesthetic. Start frame: top-down macro of the matte BLACK AirPods Pro 3 case (the ESR Pulse FlickLock case), centered, with the mint-green FlickLock slider button and the small green status LED visible at center, exactly as in the start image. CAMERA WORK (cinematic DOP): slow dolly-in 8 percent over the first 2 seconds, locked on the slider. At second 2, a realistic human thumb enters from frame LEFT, makes physical contact with the mint-green slider, and pushes it LEFT TO RIGHT (rightward — matching the arrow direction on the slider button). The green status LED ignites with a soft bloom halo as the slider reaches its right end. Camera then performs a smooth tilt-up and arc, transitioning from top-down to a low three-quarter angle, while the magnetic lid slowly lifts and floats upward in slow motion (60 percent speed). The case opens revealing the WHITE AirPods Pro 3 inside — pure white silicone ear tips and white plastic body, with silver metallic stems that have small black sensor circles. Camera pulls back smoothly to a wider hero shot, then performs a slow 90-degree orbital pan revealing the side profile of the case. Final 1.5 seconds: smooth elegant fade to pure pitch black, holding on black. ABSOLUTE PRODUCT FIDELITY: the BLACK case body, the MINT-GREEN slider, the GREEN LED, and the WHITE AirPods Pro 3 (white tips, white body, silver stems) must remain visually identical to real product references throughout. The AirPods Pro 3 are WHITE, not black. The case is BLACK. Do not blend or confuse these colors. STRICT MOTION: slider slides LEFT TO RIGHT only. The thumb is photoreal, no uncanny detail. Color grade: warm-cool contrast, deep blacks, mint green and copper accents preserved. Anamorphic depth of field, shallow on close-ups. Genre: drama. No text overlays, no logos, no captions.",
   "fidelity_constraints": [
@@ -29,8 +30,10 @@
     "ESR branding preserved if visible",
     "Lid opens upward away from camera (magnetic motion)"
   ],
-  "result_url": null,
-  "job_id": null,
-  "decision": "in_progress",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DdIi014Wro7U016WpdMmpAyQCU/hf_20260625_191707_2e02eb61-e5c1-4b11-82fc-de83ce368ce9.mp4",
+  "job_id": "2e02eb61-e5c1-4b11-82fc-de83ce368ce9",
+  "completed_at": "2026-06-25T19:17:07Z",
+  "balance_after": 2852,
+  "decision": "pending user review",
   "previous_version": "concept-2-flicklock-hypermotion-v1.meta.json"
 }

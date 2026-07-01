@@ -1,0 +1,9 @@
+{
+  "_comment": "Higgsfield media_ids for ESR Classic Hybrid Camera Control (iPhone 17 Pro Max Frosted Black). Uploaded 2026 via widget.",
+  "uploads": [
+    {"media_id": "b8e3a307-7a7f-4f9e-a229-264635889924", "filename": "Clear_Black_iPhone_17_Pro_Max_-_2_fjpl2y.webp", "role": "PRIMARY start image — frosted black case hero"},
+    {"media_id": "9f820a54-1e9a-4162-abf1-5f1e68f8ec9a", "filename": "ESR-iPhone-17-Pro-Magnetic-.webp", "role": "MagSafe/magnetic reference"},
+    {"media_id": "de604d44-bbf9-4e77-a36e-342dd2c31f9a", "filename": "KF6 (1).jpg", "role": "additional product reference"}
+  ],
+  "reference_ad_video": "products/classic-hybrid-camera-control-iphone-17-pro-max/references/esr-reference-ad.mp4 (28s, analyzed frame-by-frame)"
+}
